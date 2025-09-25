@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# dependencies
+node_modules/
+
+# firebase keys (don’t upload secrets)
+src/components/firebase.js
+
+# build files
+dist/
+build/
+
+# misc
+.env
